@@ -2,7 +2,7 @@
 using System.Net;
 using Newtonsoft.Json.Linq;
 
-namespace Cielo.Responses.Exceptions
+namespace Cielo.API.Responses.Exceptions
 {
     public class ErrorResponse
     {

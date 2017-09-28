@@ -1,6 +1,6 @@
 ﻿using System.Configuration;
 
-namespace Cielo.Configuration
+namespace Cielo.API.Configuration
 {
     public class DefaultConfiguration : IConfiguration
     {

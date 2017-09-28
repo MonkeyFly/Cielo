@@ -1,6 +1,6 @@
-﻿using Cielo.Extensions.Attributes;
+﻿using Cielo.API.Extensions.Attributes;
 
-namespace Cielo.Enums
+namespace Cielo.API.Enums
 {
     public enum AuthorizationStatus
     {

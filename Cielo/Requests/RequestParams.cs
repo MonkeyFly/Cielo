@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using RestSharp;
 
-namespace Cielo.Requests
+namespace Cielo.API.Requests
 {
     public class RequestParams
     {

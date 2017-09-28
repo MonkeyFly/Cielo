@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Cielo.Responses
+namespace Cielo.API.Responses
 {
     public class CardResponse
     {

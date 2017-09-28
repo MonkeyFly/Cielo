@@ -1,13 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Cielo.Enums;
-using Cielo.Extensions;
-using Newtonsoft.Json;
+using Cielo.API.Enums;
+using Cielo.API.Extensions;
 
-namespace Cielo.Requests.Entites.Common
+namespace Cielo.API.Requests.Entites.Common
 {
     public class Customer
     {

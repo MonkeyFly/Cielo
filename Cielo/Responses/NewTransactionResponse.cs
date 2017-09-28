@@ -1,12 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Runtime.Serialization;
-using Cielo.Enums;
-using Cielo.Extensions;
+using Cielo.API.Enums;
+using Cielo.API.Extensions;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 
-namespace Cielo.Responses
+namespace Cielo.API.Responses
 {
     public class NewTransactionResponse
     {
@@ -41,6 +41,7 @@ namespace Cielo.Responses
             ReturnCode = EnumExtension.ToEnum<ReturnCode>(payment["ReturnCode"]?.ToString());
             ReturnMessage = payment["ReturnMessage"]?.ToString();
             AuthenticationUrl = payment["AuthenticationUrl"]?.ToString();
+            Cardtoken = payment["Cardtoken"]?.ToString();
         }
 
         #endregion
@@ -56,6 +57,7 @@ namespace Cielo.Responses
         public Status Status { get; private set; }
         public ReturnCode ReturnCode { get; private set; }
         public string ReturnMessage { get; private set; }
+        public string Cardtoken { get; private set; }
 
         #endregion
     }

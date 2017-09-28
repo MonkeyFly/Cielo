@@ -1,7 +1,7 @@
-﻿using Cielo.Requests.Entites.Common;
+﻿using Cielo.API.Requests.Entites.Common;
 using Newtonsoft.Json;
 
-namespace Cielo.Requests.Entites
+namespace Cielo.API.Requests.Entites
 {
     public class TransactionRequest
     {

@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using Cielo.Enums;
+using Cielo.API.Enums;
 
-namespace Cielo.Responses.Entities
+namespace Cielo.API.Responses.Entities
 {
     public class PaymentResponse
     {

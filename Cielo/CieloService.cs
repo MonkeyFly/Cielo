@@ -1,15 +1,15 @@
 ﻿using System;
 using System.Net;
-using Cielo.Configuration;
-using Cielo.Extensions;
-using Cielo.Requests;
-using Cielo.Requests.Entites;
-using Cielo.Responses;
-using Cielo.Responses.Exceptions;
+using Cielo.API.Configuration;
+using Cielo.API.Extensions;
+using Cielo.API.Requests;
+using Cielo.API.Requests.Entites;
+using Cielo.API.Responses;
+using Cielo.API.Responses.Exceptions;
 using Newtonsoft.Json;
 using RestSharp;
 
-namespace Cielo
+namespace Cielo.API
 {
     public class CieloService : ICieloService
     {

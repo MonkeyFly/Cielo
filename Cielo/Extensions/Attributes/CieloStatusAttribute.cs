@@ -1,6 +1,7 @@
 ﻿using System;
 using System.ComponentModel;
-namespace Cielo.Extensions.Attributes
+
+namespace Cielo.API.Extensions.Attributes
 {
     [AttributeUsage(AttributeTargets.All)]
     public class CieloStatusAttribute : DescriptionAttribute

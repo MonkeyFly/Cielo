@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel;
 
-namespace Cielo.Enums
+namespace Cielo.API.Enums
 {
     public enum CardBrand
     {

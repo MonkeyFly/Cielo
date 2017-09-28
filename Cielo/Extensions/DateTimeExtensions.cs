@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Cielo.Extensions
+namespace Cielo.API.Extensions
 {
     public static class DateTimeExtensions
     {

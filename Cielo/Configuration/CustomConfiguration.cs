@@ -1,4 +1,4 @@
-﻿namespace Cielo.Configuration
+﻿namespace Cielo.API.Configuration
 {
     public class CustomConfiguration : IConfiguration
     {

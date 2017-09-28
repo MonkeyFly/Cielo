@@ -1,7 +1,6 @@
 ﻿using System.Globalization;
-using Newtonsoft.Json;
 
-namespace Cielo.Requests.Entites.Common
+namespace Cielo.API.Requests.Entites.Common
 {
     public class CardExpiration
     {

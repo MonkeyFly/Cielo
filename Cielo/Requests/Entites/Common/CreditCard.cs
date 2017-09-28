@@ -1,8 +1,7 @@
-﻿using Cielo.Enums;
-using Cielo.Extensions;
-using Newtonsoft.Json;
+﻿using Cielo.API.Enums;
+using Cielo.API.Extensions;
 
-namespace Cielo.Requests.Entites.Common
+namespace Cielo.API.Requests.Entites.Common
 {
     public class CreditCard : ICard, ICardToken
     {

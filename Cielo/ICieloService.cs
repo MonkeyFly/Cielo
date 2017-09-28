@@ -1,8 +1,8 @@
 ﻿using System;
-using Cielo.Requests.Entites;
-using Cielo.Responses;
+using Cielo.API.Requests.Entites;
+using Cielo.API.Responses;
 
-namespace Cielo
+namespace Cielo.API
 {
     public interface ICieloService
     {

@@ -68,9 +68,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Cielo\Cielo.csproj">
+    <ProjectReference Include="..\Cielo\Cielo.API.3.0.csproj">
       <Project>{82c19b46-7f0d-4137-bc0c-391b9c3ded1d}</Project>
-      <Name>Cielo</Name>
+      <Name>Cielo.API.3.0</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />

@@ -1,7 +1,6 @@
-﻿using Cielo.Extensions;
-using Newtonsoft.Json;
+﻿using Cielo.API.Extensions;
 
-namespace Cielo.Requests.Entites.Common
+namespace Cielo.API.Requests.Entites.Common
 {
     public class Address
     {

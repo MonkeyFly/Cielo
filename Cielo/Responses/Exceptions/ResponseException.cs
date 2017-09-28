@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Cielo.Responses.Exceptions
+namespace Cielo.API.Responses.Exceptions
 {
     public class ResponseException : ApplicationException
     {

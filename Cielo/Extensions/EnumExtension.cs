@@ -2,7 +2,7 @@
 using System.ComponentModel;
 using System.Reflection;
 
-namespace Cielo.Extensions
+namespace Cielo.API.Extensions
 {
     public static class EnumExtension
     {

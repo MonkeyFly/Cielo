@@ -1,12 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Runtime.Serialization;
-using Cielo.Enums;
-using Cielo.Extensions;
+using Cielo.API.Enums;
+using Cielo.API.Extensions;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 
-namespace Cielo.Responses
+namespace Cielo.API.Responses
 {
     public class EletronicTransferResponse
     {
@@ -37,7 +37,8 @@ namespace Cielo.Responses
             Url = payment["Url"]?.ToString();
             PaymentId = Guid.Parse(payment["PaymentId"]?.ToString());
             PaymentType = EnumExtension.ToEnum<PaymentType>(payment["Type"]?.ToString());
-            int.TryParse(payment["Amount"]?.ToString(), out int amount);
+            int amount;
+            int.TryParse(payment["Amount"]?.ToString(), out amount);
             Amount = amount;
             Currency = payment["Currency"]?.ToString();
             Country = payment["Country"]?.ToString();

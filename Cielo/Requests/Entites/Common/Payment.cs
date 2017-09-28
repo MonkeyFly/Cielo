@@ -1,8 +1,7 @@
 ﻿using System;
-using Cielo.Enums;
-using Newtonsoft.Json;
+using Cielo.API.Enums;
 
-namespace Cielo.Requests.Entites.Common
+namespace Cielo.API.Requests.Entites.Common
 {
     public class Payment
     {

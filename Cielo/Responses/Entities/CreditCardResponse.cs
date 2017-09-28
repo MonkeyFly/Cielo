@@ -1,4 +1,4 @@
-﻿namespace Cielo.Responses.Entities
+﻿namespace Cielo.API.Responses.Entities
 {
     public class CreditCardResponse
     {

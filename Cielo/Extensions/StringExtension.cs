@@ -1,6 +1,6 @@
 ﻿using System.Text.RegularExpressions;
 
-namespace Cielo.Extensions
+namespace Cielo.API.Extensions
 {
     public static class StringExtension
     {

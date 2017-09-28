@@ -1,4 +1,4 @@
-﻿namespace Cielo.Enums
+﻿namespace Cielo.API.Enums
 {
     public enum EletronicTransferProvider
     {

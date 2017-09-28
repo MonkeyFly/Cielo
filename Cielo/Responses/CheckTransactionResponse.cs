@@ -1,8 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using Cielo.Responses.Entities;
+﻿using System.Collections.Generic;
+using Cielo.API.Responses.Entities;
 
-namespace Cielo.Responses
+namespace Cielo.API.Responses
 {
     public class CheckTransactionResponse
     {

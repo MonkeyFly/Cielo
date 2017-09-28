@@ -1,10 +1,10 @@
 ﻿using System.Collections.Generic;
 using System.Runtime.Serialization;
-using Cielo.Enums;
-using Cielo.Extensions;
+using Cielo.API.Enums;
+using Cielo.API.Extensions;
 using Newtonsoft.Json;
 
-namespace Cielo.Responses
+namespace Cielo.API.Responses
 {
     public class TransactionResponse
     {
