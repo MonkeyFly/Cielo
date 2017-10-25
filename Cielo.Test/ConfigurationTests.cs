@@ -1,5 +1,5 @@
 ﻿using System.Configuration;
-using Cielo.Configuration;
+using Cielo.API.Configuration;
 using FluentAssertions;
 using NUnit.Framework;
 
