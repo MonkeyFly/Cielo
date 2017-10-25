@@ -41,7 +41,8 @@ namespace Cielo.API.Responses
             ReturnCode = EnumExtension.ToEnum<ReturnCode>(payment["ReturnCode"]?.ToString());
             ReturnMessage = payment["ReturnMessage"]?.ToString();
             AuthenticationUrl = payment["AuthenticationUrl"]?.ToString();
-            Cardtoken = payment["Cardtoken"]?.ToString();
+            JObject creditCard = (JObject)payment["CreditCard"];
+            Cardtoken = creditCard["CardToken"]?.ToString();
         }
 
         #endregion

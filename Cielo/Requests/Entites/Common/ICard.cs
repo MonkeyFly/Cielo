@@ -7,5 +7,6 @@
         string ExpirationDate { get; }
         string SecurityCode { get; }
         string Brand { get;  }
+        bool SaveCard { get; }
     }
 }

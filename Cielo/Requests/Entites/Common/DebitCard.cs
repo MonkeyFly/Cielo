@@ -21,17 +21,20 @@ namespace Cielo.API.Requests.Entites.Common
         /// <param name="expirationDate">Card's Expiration Date</param>
         /// <param name="securityCode">Card's Secutiry Code</param>
         /// <param name="cardBrand">Card Brand</param>
+        /// <param name="saveCard">Save Card</param>
         public DebitCard(string cardNumber,
                          string holder,
                          CardExpiration expirationDate,
                          string securityCode,
-                         CardBrand cardBrand)
+                         CardBrand cardBrand,
+                         bool saveCard = false)
         {
             CardNumber = cardNumber.ToNumbers();
             Holder = holder;
             _expiration = expirationDate;
             SecurityCode = securityCode;
             Brand = cardBrand.ToDescription();
+            SaveCard = saveCard;
         }
 
         #endregion
@@ -46,6 +49,7 @@ namespace Cielo.API.Requests.Entites.Common
         }
         public string SecurityCode { get; private set; }
         public string Brand { get; private set; }
+        public bool SaveCard { get; private set; }
 
         #endregion
     }
