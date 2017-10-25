@@ -1,11 +1,12 @@
 ﻿using System;
 using System.Configuration;
 using System.Diagnostics;
-using Cielo.Configuration;
-using Cielo.Enums;
-using Cielo.Requests.Entites;
-using Cielo.Requests.Entites.Common;
-using Cielo.Responses.Exceptions;
+using Cielo.API;
+using Cielo.API.Configuration;
+using Cielo.API.Enums;
+using Cielo.API.Requests.Entites;
+using Cielo.API.Requests.Entites.Common;
+using Cielo.API.Responses.Exceptions;
 
 namespace Cielo.Demo.Services
 {

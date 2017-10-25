@@ -1,6 +1,6 @@
 ﻿using System;
-using Cielo.Responses;
-using Cielo.Responses.Exceptions;
+using Cielo.API.Responses;
+using Cielo.API.Responses.Exceptions;
 
 namespace Cielo.Demo
 {

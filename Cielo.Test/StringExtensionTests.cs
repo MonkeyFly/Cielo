@@ -1,5 +1,5 @@
 ﻿using System;
-using Cielo.Extensions;
+using Cielo.API.Extensions;
 using FluentAssertions;
 using NUnit.Framework;
 

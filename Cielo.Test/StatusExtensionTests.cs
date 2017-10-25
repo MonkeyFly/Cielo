@@ -1,5 +1,5 @@
-﻿using Cielo.Extensions;
-using Cielo.Enums;
+﻿using Cielo.API.Enums;
+using Cielo.API.Extensions;
 using FluentAssertions;
 using NUnit.Framework;
 namespace Cielo.Test

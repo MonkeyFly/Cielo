@@ -1,7 +1,7 @@
-﻿using Cielo.Extensions;
-using FluentAssertions;
+﻿using FluentAssertions;
 using NUnit.Framework;
 using System;
+using Cielo.API.Extensions;
 
 namespace Cielo.Test
 {

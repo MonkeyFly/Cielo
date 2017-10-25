@@ -1,8 +1,9 @@
 ﻿using System;
 using System.Configuration;
 using System.Diagnostics;
-using Cielo.Configuration;
-using Cielo.Responses.Exceptions;
+using Cielo.API;
+using Cielo.API.Configuration;
+using Cielo.API.Responses.Exceptions;
 
 namespace Cielo.Demo.Services
 {
